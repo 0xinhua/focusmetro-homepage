@@ -24,7 +24,7 @@ export default function Home() {
               Focus sessions as metro rides.
             </h1>
 
-            <p className="animate-hero-rise-delay-1 mt-5 text-base leading-7 text-muted sm:text-lg sm:leading-8">
+            <p className="animate-hero-rise-delay-1 mt-5 text-lg leading-7 text-zinc-700 sm:text-xl sm:leading-8">
              Turn every focus session into a subway ride — and every completed ride into a station you've earned.
             </p>
 
