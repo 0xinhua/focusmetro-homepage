@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Focus Metro — Focus sessions as metro rides",
+  title: "Focus Metro — Focus that rides",
   description:
     "Focus Metro wraps every focus session as a metro ride — board, ride, arrive. A calm companion for deep work on iOS.",
 };

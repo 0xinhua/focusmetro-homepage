@@ -21,11 +21,11 @@ export default function Home() {
         <div className="grid w-full items-center gap-12 lg:grid-cols-2 lg:gap-10">
           <section className="max-w-xl">
             <h1 className="animate-hero-rise text-[2.75rem] font-semibold leading-[1.05] tracking-tight text-zinc-900 sm:text-5xl lg:text-[3.5rem]">
-              Focus sessions as metro rides.
+              Focus timer for ADHD people.
             </h1>
 
             <p className="animate-hero-rise-delay-1 mt-5 text-lg leading-7 text-zinc-700 sm:text-xl sm:leading-8">
-             Turn every focus session into a subway ride — and every completed ride into a station you've earned.
+             Block distraction App, turn every focus session into a subway ride — and every completed ride into a station you've earned.
             </p>
 
             <div className="animate-hero-rise-delay-2 mt-8">
