@@ -5,8 +5,8 @@ export function SiteFooter() {
     <footer className="bg-transparent">
       <div className="mx-auto max-w-6xl px-6 pb-6 pt-2 sm:px-8">
         <div>
-          <p className="text-sm font-semibold tracking-tight text-zinc-900">
-            SpeedSound
+          <p className="text-lg font-semibold tracking-tight text-zinc-900">
+            SpeedSound, LLC
           </p>
           <p className="mt-1 text-sm leading-6 text-muted">
             1401 Pennsylvania Ave, STE 105 Unit 2127

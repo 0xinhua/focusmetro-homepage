@@ -1,5 +1,5 @@
+import Image from "next/image";
 import Link from "next/link";
-import { Train } from "@phosphor-icons/react/dist/ssr";
 import { APP_STORE_URL } from "@/lib/links";
 
 function AppleIcon({ className }: { className?: string }) {
@@ -23,9 +23,14 @@ export function SiteHeader() {
           href="/"
           className="flex items-center gap-2.5 transition-opacity hover:opacity-80"
         >
-          <span className="flex size-7 items-center justify-center rounded-lg bg-accent text-zinc-950">
-            <Train className="size-4" weight="bold" />
-          </span>
+          <Image
+            src="/focusmetro_logo.webp"
+            alt="Focus Metro"
+            width={28}
+            height={28}
+            className="size-7 rounded-lg"
+            priority
+          />
           <span className="text-[15px] font-semibold tracking-tight">
             Focus Metro
           </span>
