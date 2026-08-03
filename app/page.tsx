@@ -17,15 +17,16 @@ export default function Home() {
 
       <SiteHeader />
 
-      <main className="mx-auto flex w-full max-w-6xl flex-1 items-center px-6 py-10 sm:px-8 lg:py-12">
-        <div className="grid w-full items-center gap-12 lg:grid-cols-2 lg:gap-10">
-          <section className="max-w-xl">
-            <h1 className="animate-hero-rise text-[2.75rem] font-semibold leading-[1.05] tracking-tight text-zinc-900 sm:text-5xl lg:text-[3.5rem]">
+      <main className="flex flex-1 items-center">
+        <div className="mx-auto grid w-full max-w-7xl items-center gap-10 px-6 py-10 sm:px-8 lg:grid-cols-[minmax(0,0.36fr)_minmax(0,0.64fr)] lg:gap-8 lg:py-14">
+          <section className="w-full min-w-0 text-left">
+            <h1 className="animate-hero-rise text-[2.4rem] font-semibold leading-[1.05] tracking-tight text-zinc-900 sm:text-4xl lg:text-[2.85rem]">
               Focus timer for ADHD people.
             </h1>
 
-            <p className="animate-hero-rise-delay-1 mt-5 text-lg leading-7 text-zinc-700 sm:text-xl sm:leading-8">
-             Block distraction App, turn every focus session into a subway ride — and every completed ride into a station you've earned.
+            <p className="animate-hero-rise-delay-1 mt-5 text-base leading-7 text-zinc-700 sm:text-lg sm:leading-8">
+              Block distraction App, turn every focus session into a subway ride
+              — and every completed ride into a station you&apos;ve earned.
             </p>
 
             <div className="animate-hero-rise-delay-2 mt-8">
@@ -34,17 +35,18 @@ export default function Home() {
           </section>
 
           <section
-            className="animate-hero-rise-delay-1 flex justify-center lg:justify-end lg:self-end"
+            className="animate-hero-rise-delay-1 w-full min-w-0"
             aria-label="Focus Metro app preview"
           >
-            <div className="animate-phone-float relative mt-6 w-[210px] sm:mt-10 sm:w-[240px] lg:mt-14 lg:w-[260px]">
+            <div className="relative w-full">
               <Image
-                src="/focusmetro-iPhone-screenshot.webp"
-                alt="Focus Metro app showing a focus ride timer on iPhone"
-                width={780}
-                height={1600}
+                src="/focusmetro-mockup.webp"
+                alt="Focus Metro app mockup"
+                width={1536}
+                height={1024}
                 priority
-                className="h-auto w-full drop-shadow-[0_24px_60px_-22px_rgba(24,24,27,0.5)]"
+                sizes="(max-width: 1024px) 100vw, 64vw"
+                className="h-auto w-full rounded-2xl drop-shadow-[0_20px_48px_-20px_rgba(24,24,27,0.45)]"
               />
             </div>
           </section>

@@ -18,7 +18,7 @@ function AppleIcon({ className }: { className?: string }) {
 export function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 bg-white/75 text-zinc-900 backdrop-blur-md">
-      <div className="mx-auto flex h-14 max-w-6xl items-center justify-between px-6 sm:px-8">
+      <div className="mx-auto flex h-14 w-full max-w-7xl items-center justify-between px-6 sm:px-8">
         <Link
           href="/"
           className="flex items-center gap-2.5 transition-opacity hover:opacity-80"

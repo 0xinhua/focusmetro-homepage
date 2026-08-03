@@ -3,7 +3,7 @@ import Link from "next/link";
 export function SiteFooter() {
   return (
     <footer className="bg-transparent">
-      <div className="mx-auto max-w-6xl px-6 pb-6 pt-2 sm:px-8">
+      <div className="mx-auto w-full max-w-7xl px-6 pb-6 pt-2 sm:px-8">
         <div>
           <p className="text-lg font-semibold tracking-tight text-zinc-900">
             SpeedSound, LLC
