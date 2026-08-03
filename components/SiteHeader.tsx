@@ -31,7 +31,7 @@ export function SiteHeader() {
             className="size-7 rounded-lg"
             priority
           />
-          <span className="text-[15px] font-semibold tracking-tight">
+          <span className="text-[17px] font-semibold tracking-tight">
             Focus Metro
           </span>
         </Link>
