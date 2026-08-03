@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Train } from "@phosphor-icons/react/dist/ssr";
+import { APP_STORE_URL } from "@/lib/links";
 
 function AppleIcon({ className }: { className?: string }) {
   return (
@@ -31,7 +32,7 @@ export function SiteHeader() {
         </Link>
 
         <a
-          href="https://apps.apple.com"
+          href={APP_STORE_URL}
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex h-8 items-center gap-1.5 rounded-full bg-zinc-950 px-3.5 text-[13px] font-medium text-white transition-colors hover:bg-black"

@@ -1,3 +1,5 @@
+import { APP_STORE_URL } from "@/lib/links";
+
 function AppleGlyph({ className }: { className?: string }) {
   return (
     <svg
@@ -11,7 +13,7 @@ function AppleGlyph({ className }: { className?: string }) {
   );
 }
 
-export function AppStoreBadge({ href = "https://apps.apple.com" }: { href?: string }) {
+export function AppStoreBadge({ href = APP_STORE_URL }: { href?: string }) {
   return (
     <a
       href={href}
