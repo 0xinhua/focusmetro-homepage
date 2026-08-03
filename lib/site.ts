@@ -1,0 +1,33 @@
+export const siteConfig = {
+  name: "Focus Metro",
+  shortName: "Focus Metro",
+  tagline: "Explore NYC subway with focus time",
+  description:
+    "Focus Metro is an ADHD-friendly focus timer that turns every session into a metro ride — board, ride, arrive, and light up stations as you go.",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://focusmetro.app",
+  locale: "en_US",
+  creator: "SpeedSound",
+  email: "contact@speedsound.co",
+  phone: "+1-302-384-1230",
+  address: {
+    streetAddress: "1401 Pennsylvania Ave, STE 105 Unit 2127",
+    addressLocality: "Wilmington",
+    addressRegion: "DE",
+    postalCode: "19806",
+    addressCountry: "US",
+  },
+  appStoreUrl: "https://apps.apple.com/search?term=Focus%20Metro",
+  ogImage: "/focusmetro-og.webp",
+  logo: "/focusmetro_logo.webp",
+  keywords: [
+    "Focus Metro",
+    "focus timer",
+    "ADHD focus app",
+    "pomodoro timer",
+    "metro focus",
+    "subway focus timer",
+    "distraction blocker",
+    "deep work",
+    "iOS focus app",
+  ],
+} as const;
