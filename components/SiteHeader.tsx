@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Train } from "@phosphor-icons/react/dist/ssr";
 
 function AppleIcon({ className }: { className?: string }) {
   return (
@@ -15,17 +16,14 @@ function AppleIcon({ className }: { className?: string }) {
 
 export function SiteHeader() {
   return (
-    <header className="sticky top-0 z-50 bg-[#4a4a4a] text-white">
-      <div className="mx-auto flex h-14 max-w-5xl items-center justify-between px-5 sm:px-8">
+    <header className="sticky top-0 z-50 bg-white/75 text-zinc-900 backdrop-blur-md">
+      <div className="mx-auto flex h-14 max-w-6xl items-center justify-between px-6 sm:px-8">
         <Link
           href="/"
-          className="flex items-center gap-2.5 transition-opacity hover:opacity-90"
+          className="flex items-center gap-2.5 transition-opacity hover:opacity-80"
         >
-          <span
-            className="flex size-7 items-center justify-center rounded-[5px] bg-white text-[11px] font-bold tracking-tight text-[#4a4a4a]"
-            aria-hidden="true"
-          >
-            FM
+          <span className="flex size-7 items-center justify-center rounded-lg bg-accent text-zinc-950">
+            <Train className="size-4" weight="bold" />
           </span>
           <span className="text-[15px] font-semibold tracking-tight">
             Focus Metro
@@ -36,7 +34,7 @@ export function SiteHeader() {
           href="https://apps.apple.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex h-8 items-center gap-1.5 rounded-full bg-black px-3.5 text-[13px] font-medium text-white transition-colors hover:bg-neutral-900"
+          className="inline-flex h-8 items-center gap-1.5 rounded-full bg-zinc-950 px-3.5 text-[13px] font-medium text-white transition-colors hover:bg-black"
         >
           <AppleIcon className="size-3.5" />
           Download
