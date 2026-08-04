@@ -87,6 +87,7 @@ export default function SupportPage() {
                   +1 3023841230
                 </a>
               </p>
+              <p className="mt-4 text-sm text-zinc-500">© 2026 SpeedSound</p>
             </div>
           </section>
 
