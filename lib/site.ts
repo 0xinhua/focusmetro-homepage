@@ -8,6 +8,9 @@ export const siteConfig = {
   locale: "en_US",
   creator: "SpeedSound",
   email: "contact@speedsound.co",
+  supportEmail: "kw@speedsound.co",
+  xHandle: "0xinhua",
+  xUrl: "https://x.com/0xinhua",
   phone: "+1-302-384-1230",
   address: {
     streetAddress: "1401 Pennsylvania Ave, STE 105 Unit 2127",
