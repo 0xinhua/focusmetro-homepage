@@ -1,3 +1,10 @@
+/**
+ * Shared content column width.
+ * max-w-3xl = 768px — compact centered column for two portrait mockups;
+ * stacks to one column on H5.
+ */
+export const CONTENT_MAX_WIDTH_CLASS = "max-w-3xl";
+
 export const siteConfig = {
   name: "Focus Metro",
   shortName: "Focus Metro",

@@ -19,11 +19,11 @@ export function AppStoreBadge({ href = APP_STORE_URL }: { href?: string }) {
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className="inline-flex h-12 items-center gap-2.5 rounded-xl bg-zinc-950 px-4 text-white transition-transform duration-200 hover:-translate-y-0.5 hover:bg-black"
+      className="inline-flex h-12 items-center gap-2.5 rounded-xl bg-zinc-950 px-4 text-white transition-transform duration-200 hover:-translate-y-0.5 hover:bg-black dark:bg-zinc-50 dark:text-zinc-950 dark:hover:bg-white"
     >
       <AppleGlyph className="size-6" />
       <span className="flex flex-col leading-none">
-        <span className="text-[10px] font-medium tracking-wide text-zinc-300">
+        <span className="text-[10px] font-medium tracking-wide text-zinc-300 dark:text-zinc-600">
           Download on the
         </span>
         <span className="mt-0.5 text-[17px] font-semibold tracking-tight">
