@@ -80,7 +80,7 @@ export default function Home() {
                   height={mockup.height}
                   priority
                   sizes="220px"
-                  className="h-auto w-full rounded-2xl"
+                  className="h-auto w-full rounded-2xl dark:ring-1 dark:ring-white/15"
                 />
               </div>
             ))}
