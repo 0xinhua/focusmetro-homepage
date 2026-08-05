@@ -56,7 +56,7 @@ export default function Home() {
             <h1 className="animate-hero-rise text-[2.35rem] font-semibold leading-[1.1] tracking-tight text-zinc-900 dark:text-zinc-50 sm:text-5xl">
               Focus timer but different.
             </h1>
-            <p className="animate-hero-rise-delay-1 mx-auto mt-5 max-w-xl text-base leading-7 text-zinc-600 dark:text-zinc-400 sm:text-lg sm:leading-8">
+            <p className="animate-hero-rise-delay-1 mx-auto mt-5 max-w-xl text-lg font-medium leading-7 text-zinc-600 dark:text-zinc-400 sm:text-lg sm:leading-8">
              Explore NYC subway by focusing, turn focus session into a subway ride, block distraction Apps & unlock stations.
             </p>
             <div className="animate-hero-rise-delay-2 mt-8 flex justify-center">
